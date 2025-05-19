@@ -24,54 +24,52 @@ The agent will
 
 #### Sample Response:
 ```
-You have a trip scheduled on 2025-07-07 from New York to Berlin, with a return after 4 days (on 2025-07-11). Here are the completed bookings using the cheapest available options:
+Here are your full travel arrangements and booking details for your trip on 8th August 2025:
 
 ---
 
-### Flight Bookings
-
-#### Outbound: New York (LaGuardia Airport) → Berlin (Brandenburg Airport)
-- **Airline**: British Airways
-- **Cabin**: Economy
-- **Baggage**: 1 checked, 1 carry-on
-- **Duration**: 9 hours 5 minutes
-- **Departure Airport**: LaGuardia Airport (NYC)
-- **Arrival Airport**: Berlin Brandenburg Airport (BER)
-- **Date**: 2025-07-07
-
-#### Return: Berlin (Brandenburg Airport) → New York (LaGuardia Airport)
-- **Airline**: British Airways
-- **Cabin**: Economy
-- **Baggage**: 1 checked, 1 carry-on
-- **Duration**: 9 hours 5 minutes
-- **Departure Airport**: Berlin Brandenburg Airport (BER)
-- **Arrival Airport**: LaGuardia Airport (NYC)
-- **Date**: 2025-07-11
+## Outbound Flight: Dubai (DXB) → Singapore (SIN)
+- **Date:** 8th August 2025
+- **Airline:** Air India
+- **Flight Route:** 
+  - Segment 1: Dubai International Airport (DXB) → Chhatrapati Shivaji International Airport (BOM)
+    - Duration: 3h 10m
+  - Segment 2: Chhatrapati Shivaji International Airport (BOM) → Singapore Changi Airport (SIN)
+    - Duration: 5h 50m
+- **Total Duration:** ~10 hours
+- **Class:** Economy (Wi-Fi, standard seat, power available)
+- **Baggage:** 1 checked bag + 1 carry-on
 
 ---
 
-### Accommodation Booking (Cheapest Available Option)
-
-#### Airbnb: Sunny room in Neukölln, on the river (Solo woman, hosted by Maria)
-- **Type**: Private room in a condo (room is only for women)
-- **Location**: Neukölln, Berlin (Canal view)
-- **Check-in**: 2025-07-07
-- **Check-out**: 2025-07-11
-- **Total Price**: $229 for 4 nights
-- **Amenities**:
-    - Canal view, essentials, bed linens, room-darkening shades
-    - Central heating, lock on bedroom door, carbon monoxide alarm
-    - Wifi, dedicated workspace, refrigerator, microwave, dishes, dishwasher, hot water kettle, patio/balcony, free street parking
-- **Policies/Rules**:
-    - Check-in: 3:00 PM - 10:00 PM
-    - Checkout: before 10:00 AM
-    - 1 guest maximum, no parties, no smoking (even on balcony)
-    - Throw trash away before you leave
-    - [Airbnb Listing & Booking Link](https://www.airbnb.com/rooms/22676690?check_in=2025-07-07&check_out=2025-07-11&adults=1&children=0&infants=0&pets=0)
+## Accommodation in Singapore (8th - 13th August 2025)
+**Your Capsule Pod in Singapore (FP-API-401)**
+- **Type:** Capsule pod in a community lodge
+- **Location:** Near city, 2 MRT stations nearby, walking distance to tourist sites
+- **Check-in:** After 2:00 PM, 8th August 2025
+- **Check-out:** Before 11:00 AM, 13th August 2025
+- **Price:** $166 for 5 nights
+- **Amenities:** Wi-Fi, TV, air conditioning, paid parking, washer (paid), security cameras, smoke alarm, fire extinguisher, self check-in with keypad
+- **Rules:** 1 guest max, no pets, no parties, no smoking
+- **Cancellation:** Free until 3rd August 2025
+- **Booking Link:** [View & Manage Booking on Airbnb](https://www.airbnb.com/rooms/1077066160280158672?check_in=2025-08-08&check_out=2025-08-13&adults=1&children=0&infants=0&pets=0)
 
 ---
 
-**If you have any preferences or need changes, let me know! Otherwise, your bookings are ready for your Berlin trip from July 7th to July 11th, 2025.**
+## Return Flight: Singapore (SIN) → Dubai (DXB)
+- **Date:** 13th August 2025
+- **Airline:** British Airways / Duffel Airways (direct options)
+- **Flight Route:** Singapore Changi Airport (SIN) → Dubai International Airport (DXB)
+- **Duration:** 8h 22m
+- **Class:** Economy (Wi-Fi, standard seat, power available)
+- **Baggage:** 1 checked bag + 1 carry-on
+
+---
+
+### Additional Note:
+- You also have a meeting with the technical team at 11am on 8th August 2025, so please plan your flight time accordingly.
+
+Would you like to proceed with booking these flights and the Airbnb, or do you need to see more accommodation or flight options?
 ```
 
 ### cURL
