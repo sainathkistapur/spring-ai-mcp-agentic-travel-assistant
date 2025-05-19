@@ -75,7 +75,7 @@ Would you like to proceed with booking these flights and the Airbnb, or do you n
 ### cURL
 ```
 curl --location --request GET 'http://localhost:8080/springai/openai/mcp/client/custom/server/basic-chat' \
---header 'conversationId: CID21' \
+--header 'conversationId: CID2' \
 --header 'Content-Type: text/plain' \
---data-raw 'Am I travelling anywhere on 2025-07-07? If so, without asking for my confirmation make complete bookings with the cheapest option. Show me the full detais of all bookings'
+--data-raw 'Am I travelling anywhere on 8th August 2025? If so, make all the necessary arragements. Show me the full detais of all bookings'
 ```
