@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: springai.mcp.agentic.travel.assistant
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4.1
+
+    mcp:
+      client:
+        sse:
+          connections:
+            custom-mcp-server-calendar:
+              url: http://localhost:8081
+            custom-mcp-server-flight-info:
+              url: http://localhost:8083
+        stdio:
+          servers-configuration: classpath:mcp-servers.json

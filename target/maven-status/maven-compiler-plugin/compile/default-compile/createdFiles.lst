@@ -1,0 +1,4 @@
+dev/springai/mcp/agentic/travel/assistant/advisor/LoggingAdvisor.class
+dev/springai/mcp/agentic/travel/assistant/controller/McpClientController.class
+dev/springai/mcp/agentic/travel/assistant/config/OpenAiConfig.class
+dev/springai/mcp/agentic/travel/assistant/SpringAiMcpAgenticTravelAssistantApplication.class
