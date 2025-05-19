@@ -9,7 +9,7 @@ This assistant is capable of taking a simple prompt and make all the arrangement
 
 ### Example 
 #### Prompt:
-`Am I travelling anywhere on 2025-07-07? If so, without asking for my confirmation make complete bookings with the cheapest option. Show me the full detais of all bookings`
+```Am I travelling anywhere on 8th August 2025? If so, make all the necessary arragements. Show me the full detais of all bookings```
 
 The agent will
 - Check you calendar for any travel events. (Calendar MCP Server)
