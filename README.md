@@ -4,8 +4,8 @@ Repository to demonstrate the Spring AI capability to use Model Context Protocol
 This assistant is capable of taking a simple prompt and make all the arrangement for your travel.
 
 ## Depends ON
-- Duffel MCP Server Running: https://github.com/sainathkistapur/spring-ai-mcp-servers/tree/master/mcp.server.duffel
-- Calendar MCP Server Running: https://github.com/sainathkistapur/spring-ai-mcp-servers/tree/master/mcp.server.custom.calendar
+- Duffel MCP Server Running: `https://github.com/sainathkistapur/spring-ai-mcp-servers/tree/master/mcp.server.duffel`
+- Calendar MCP Server Running: `https://github.com/sainathkistapur/spring-ai-mcp-servers/tree/master/mcp.server.custom.calendar`
 
 ### Example 
 
@@ -21,3 +21,10 @@ The agent will
 - Makes the accommodation booking with AirBnb (AirBnB MCP Server)
 - Give the full details of the entire travel arrangements. 
 
+### cURL
+```
+curl --location --request GET 'http://localhost:8080/springai/openai/mcp/client/custom/server/basic-chat' \
+--header 'conversationId: CID21' \
+--header 'Content-Type: text/plain' \
+--data-raw 'Am I travelling anywhere on 2025-07-07? If so, without asking for my confirmation make complete bookings with the cheapest option. Show me the full detais of all bookings'
+```
