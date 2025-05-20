@@ -4,7 +4,7 @@ Repository to demonstrate the Spring AI capability to use Model Context Protocol
 This assistant is capable of taking a simple prompt and make all the arrangement for your travel.
 
 ## Depends ON
-- Duffel MCP Server Running: [mcp.server.duffel](https://github.com/sainathkistapur/spring-ai-mcp-servers/tree/master/mcp.server.duffel)
+- Spring AI Duffel MCP Server Running: [spring-ai-mcp-server-duffel](https://github.com/sainathkistapur/spring-ai-mcp-server-duffel)
 - Calendar MCP Server Running: [mcp.server.custom.calendar](https://github.com/sainathkistapur/spring-ai-mcp-servers/tree/master/mcp.server.duffel)
 - MCP AirBnb server: This is currently configured as NPM package pointing to [mcp-server-airbnb](https://github.com/openbnb-org/mcp-server-airbnb) This is also be created using the Spring AI MCP server.
 
